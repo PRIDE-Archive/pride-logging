@@ -56,8 +56,6 @@
             <version>${logback.version}</version>
         </dependency>
     </dependencies>
-
     
-
     <!-- No need for repository definitions, as it's all defined in the parent POM -->
 </project>

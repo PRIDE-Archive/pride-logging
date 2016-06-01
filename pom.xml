@@ -58,4 +58,11 @@
     </dependencies>
     
     <!-- No need for repository definitions, as it's all defined in the parent POM -->
+
+    <scm>
+        <connection>scm:git:https://github.com/PRIDE-Archive/pride-logging.git</connection>
+        <developerConnection>scm:git:https://github.com/PRIDE-Archive/pride-logging.git</developerConnection>
+        <url>https://github.com/PRIDE-Archive/pride-logging.git</url>
+        <tag>HEAD</tag>
+    </scm>
 </project>

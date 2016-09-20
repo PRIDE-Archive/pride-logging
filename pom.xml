@@ -2,13 +2,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>uk.ac.ebi.pride</groupId>
+    <groupId>uk.ac.ebi.pride.architectural</groupId>
     <artifactId>pride-logging</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <parent>
-        <groupId>uk.ac.ebi.pride</groupId>
+        <groupId>uk.ac.ebi.pride.architectural</groupId>
         <artifactId>pride-core</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -29,31 +29,28 @@
     <!-- DEVELOPERS: are the same as in the parent POM -->
     <!-- CONTRIBUTORS: are the same as in the parent POM -->
 
-    <properties>
-        <slf4j.version>1.7.19</slf4j.version>
-        <logback.version>1.1.6</logback.version>
-    </properties>
+    <!-- NO PROPERTIES have been defined for this POM -->
 
     <dependencies>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>${slf4j.version}</version>
+            <version>1.7.19</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
-            <version>${slf4j.version}</version>
+            <version>1.7.19</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-core</artifactId>
-            <version>${logback.version}</version>
+            <version>1.1.6</version>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>${logback.version}</version>
+            <version>1.1.6</version>
         </dependency>
     </dependencies>
     

@@ -10,7 +10,7 @@
     <parent>
         <groupId>uk.ac.ebi.pride.architectural</groupId>
         <artifactId>pride-core</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <name>PRIDE Logging Subsytem Dependencies</name>
@@ -28,7 +28,6 @@
 
     <!-- DEVELOPERS: are the same as in the parent POM -->
     <!-- CONTRIBUTORS: are the same as in the parent POM -->
-
     <!-- NO PROPERTIES have been defined for this POM -->
 
     <dependencies>

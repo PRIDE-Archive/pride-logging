@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>uk.ac.ebi.pride.architectural</groupId>
     <artifactId>pride-logging</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <parent>
@@ -15,7 +14,7 @@
 
     <name>PRIDE Logging Subsytem Dependencies</name>
     <description>This POM file defines dependencies for using a logging subsystem in PRIDE</description>
-    <url></url>
+    <url />
 
     <licenses>
         <license>
@@ -59,6 +58,6 @@
         <connection>scm:git:https://github.com/PRIDE-Archive/pride-logging.git</connection>
         <developerConnection>scm:git:https://github.com/PRIDE-Archive/pride-logging.git</developerConnection>
         <url>https://github.com/PRIDE-Archive/pride-logging.git</url>
-        <tag>HEAD</tag>
+        <tag>pride-logging-1.0.0</tag>
     </scm>
 </project>
